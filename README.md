@@ -1,1 +1,0 @@
-# fajr-calendar-privacy-policy
