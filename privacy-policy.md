@@ -4,7 +4,7 @@ _Last updated: 12 May 2026_
 
 ## Introduction
 
-Blink22 built the **Fajr Calendar: Prayers Sync** app as an application with free options and optional auto-renewable subscriptions plans. This Privacy Policy explains what information the app collects, how it is used, and the choices available to you. By using the app you agree to the practices described in this policy. We will not share your information beyond what is described here.
+Blink22 built the **Fajr Calendar: Prayers Sync** app as an application with free options and optional auto-renewable subscription plans. This Privacy Policy explains what information the app collects, how it is used, and the choices available to you. By using the app you agree to the practices described in this policy. We will not share your information beyond what is described here.
 
 If you have questions, contact us at the address at the bottom of this page.
 
