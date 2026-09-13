@@ -1,6 +1,6 @@
 # Privacy Policy — Fajr Calendar for Android
 
-_Last updated: 11 September 2026_
+_Last updated: 13 September 2026_
 
 _This policy applies to the **Fajr Calendar: Prayers Sync** app for **Android**, distributed through Google Play._
 
@@ -105,11 +105,11 @@ Account deletion is permanent and cannot be undone. Events you created manually 
 
 If you have an active subscription, you may need to cancel it separately in the Google Play Store under **Payments & subscriptions → Subscriptions**.
 
-**Requesting deletion without the app.** If you have uninstalled the app, or are otherwise unable to delete your account from inside it, you can request account and data deletion at:
+**Requesting deletion without the app.** If you have uninstalled the app, or are otherwise unable to delete your account from inside it, follow the instructions on our Account Deletion page:
 
 **https://github.com/FajrCalendar/fajr-calendar-privacy-policy/blob/main/Android/delete-account.md**
 
-That page lists the steps for both routes. You may also email us at the address at the bottom of this page and we will process the request within a reasonable time.
+It describes both the in-app route and the email route, together with exactly which data is deleted and which is kept. Requests made by email are processed within 30 days.
 
 ## Opt-Out and Data Retention
 
