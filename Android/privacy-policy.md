@@ -109,7 +109,7 @@ If you have an active subscription, you may need to cancel it separately in the 
 
 **https://fajrcalendar.com/support**
 
-You may also email us at the address at the bottom of this page and we will process the request within a reasonable time.
+You may also email us at the address at the bottom of this page and we will process the request within a reasonable time. Step-by-step instructions for both routes are on our [Account Deletion page](delete-account.md).
 
 ## Opt-Out and Data Retention
 
