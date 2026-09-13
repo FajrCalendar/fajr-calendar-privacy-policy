@@ -107,9 +107,9 @@ If you have an active subscription, you may need to cancel it separately in the 
 
 **Requesting deletion without the app.** If you have uninstalled the app, or are otherwise unable to delete your account from inside it, you can request account and data deletion at:
 
-**https://fajrcalendar.com/support**
+**https://github.com/FajrCalendar/fajr-calendar-privacy-policy/blob/main/Android/delete-account.md**
 
-You may also email us at the address at the bottom of this page and we will process the request within a reasonable time. Step-by-step instructions for both routes are on our [Account Deletion page](delete-account.md).
+That page lists the steps for both routes. You may also email us at the address at the bottom of this page and we will process the request within a reasonable time.
 
 ## Opt-Out and Data Retention
 
