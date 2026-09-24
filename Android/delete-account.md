@@ -1,6 +1,6 @@
 # Delete Your Account — Fajr Calendar for Android
 
-_Last updated: 13 September 2026_
+_Last updated: 24 September 2026_
 
 _This page applies to the **Fajr Calendar: Prayers Sync** app for **Android**, published on Google Play by **Blink22**._
 
@@ -38,7 +38,7 @@ When your account is deleted, we remove from our servers:
 - Prayer events that the app created in your connected calendar.
 - The encrypted event cache stored on your device (cleared by the in-app flow).
 
-Crash reports previously sent to Firebase Crashlytics contain only a pseudonymous numeric account identifier, never your name or email address. After deletion that identifier no longer maps to any account, and the reports expire under Firebase's standard retention period.
+Crash reports previously sent to Firebase Crashlytics, and usage analytics previously sent to Google Analytics for Firebase, are linked only to a pseudonymous numeric account identifier, never to your name or email address. After deletion the app stops attaching that identifier to analytics, and it no longer maps to any account on our servers. The existing records expire under the retention period configured for Firebase and Google Analytics. If you want the usage analytics linked to your account deleted sooner, say so in your email and we will ask Google Analytics to delete it.
 
 ## What is kept
 
