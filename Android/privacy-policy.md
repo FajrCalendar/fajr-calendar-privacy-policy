@@ -1,6 +1,6 @@
 # Privacy Policy — Fajr Calendar for Android
 
-_Last updated: 11 September 2026_
+_Last updated: 24 September 2026_
 
 _This policy applies to the **Fajr Calendar: Prayers Sync** app for **Android**, distributed through Google Play._
 
@@ -45,9 +45,26 @@ We store your preferences — calculation method, madhab, prayer reminders, lang
 
 If you purchase a subscription, the payment is processed by **Google Play Billing**. We never receive your credit card number, billing address, or any other payment details. Google shares with us a purchase token and subscription state indicating which plan you bought and its status.
 
+### Usage analytics
+
+The Android app uses **Google Analytics for Firebase** to understand how the app is used, so that we can see which features are helpful, where people get stuck, and which errors they run into. The app does **not** include Firebase Remote Config, shows no ads, and uses analytics data for no advertising purpose.
+
+**What is collected:**
+
+- **Screens and features used**, for example which screens you open, the steps of onboarding and the in-app tutorial you complete or skip, starting or completing a prayer sync, creating an event, and changing a setting such as calculation method, madhab, language, reminder time, or week start day.
+- **Settings and plan details**, recorded as short values describing your choices: your sign-in provider (Google or Microsoft), connected calendar provider, app language, calculation method, madhab, subscription plan, and the **city and country of the location you saved** in the app.
+- **Subscription events**: opening the subscription screen, the plan you chose, its price and currency, and the Google Play order number of a completed purchase. We never receive your payment details.
+- **Errors**: when a request to our servers fails, the kind of failure, its HTTP status code, and the request path with any identifiers removed. Only a sample (about 10%) of failed requests is recorded.
+- **A pseudonymous numeric account identifier**, the same one used for crash reports (see below), so that activity can be tied to an account across sessions and devices. When you sign out or delete your account, the app stops attaching it to further analytics.
+- **Information Google Analytics collects automatically**: an app-instance identifier, app version, device model, Android version, language, a coarse location (country or region) derived from your IP address, and session information such as when the app was first opened and how long it is used.
+
+**What is never collected:** your name, email address, or profile picture; the title, description, or guests of any event you create; your contacts; your precise location or coordinates; the text you type when searching for a city (only its length); authentication tokens; and the contents of any network request or response. Collection of the Android **advertising ID** is disabled.
+
+Google processes this data on our behalf as a service provider. Analytics collection is active only in the version of the app published on Google Play.
+
 ### Crash reporting
 
-The Android app uses **Firebase Crashlytics only**, for crash and error reporting. It does **not** include Firebase Analytics or Firebase Remote Config, and collects **no usage or behavioural analytics** — we do not track which screens you visit or which features you use.
+The app also uses **Firebase Crashlytics** for crash and error reporting.
 
 Crash reports **never** contain the content of your calendar, your contacts, your location coordinates, your authentication tokens, or the contents of any network request or response. A crash report contains the crash or error itself, the device and app information listed below, a short breadcrumb trail of app activity (for example, that a request to a given endpoint returned an error status), and a **pseudonymous numeric account identifier** that lets us tie multiple reports to a single account. That identifier is not your name or email address, and your name and email address are never sent to Crashlytics.
 
@@ -61,6 +78,7 @@ We only share information with third parties to the extent necessary to provide 
 
 - **Google Sign-In and Google Calendar / People APIs** — to authenticate you and to read or write calendar events and contacts you have authorized. See Google's privacy policy: https://policies.google.com/privacy
 - **Microsoft Authentication Library (MSAL) and Microsoft Graph** — to authenticate you and to read or write calendar events and contacts you have authorized. See Microsoft's privacy statement: https://privacy.microsoft.com/privacystatement
+- **Google Analytics for Firebase (Google)** — to measure app usage and errors, as described under *Usage analytics*. See Firebase's privacy information: https://firebase.google.com/support/privacy and how Google uses data from apps that use its services: https://policies.google.com/technologies/partner-sites
 - **Firebase Crashlytics (Google)** — to report crashes and errors. See Firebase's privacy information: https://firebase.google.com/support/privacy
 - **Google Play Billing** — to process auto-renewable subscriptions. See Google's privacy policy: https://policies.google.com/privacy
 
@@ -105,17 +123,17 @@ Account deletion is permanent and cannot be undone. Events you created manually 
 
 If you have an active subscription, you may need to cancel it separately in the Google Play Store under **Payments & subscriptions → Subscriptions**.
 
-**Requesting deletion without the app.** If you have uninstalled the app, or are otherwise unable to delete your account from inside it, you can request account and data deletion at:
+**Requesting deletion without the app.** If you have uninstalled the app, or are otherwise unable to delete your account from inside it, follow the instructions on our Account Deletion page:
 
-**https://fajrcalendar.com/support**
+**https://github.com/FajrCalendar/fajr-calendar-privacy-policy/blob/main/Android/delete-account.md**
 
-You may also email us at the address at the bottom of this page and we will process the request within a reasonable time.
+It describes both the in-app route and the email route, together with exactly which data is deleted and which is kept. Requests made by email are processed within 30 days.
 
 ## Opt-Out and Data Retention
 
-You can stop further data collection at any time by signing out, revoking the app's access from your Google or Microsoft account settings, or uninstalling the app. Information already collected is retained only as long as your account is active or as needed to provide the service. After account deletion, residual data is removed from active systems within a reasonable period, except where retention is required by law.
+You can stop further data collection at any time by signing out, revoking the app's access from your Google or Microsoft account settings, or uninstalling the app. The app has no separate in-app switch for usage analytics. Signing out stops analytics from being linked to your account, but usage analytics without an account identifier continues while the app is installed; uninstalling the app stops it. Information already collected is retained only as long as your account is active or as needed to provide the service. Usage analytics data is kept in Google Analytics for the retention period configured for our Google Analytics property, after which Google deletes it automatically. After account deletion, residual data is removed from active systems within a reasonable period, except where retention is required by law.
 
-You can request a copy of your data, or request its earlier deletion, by emailing us at the address below.
+You can request a copy of your data, or request its earlier deletion, including the usage analytics associated with your account identifier, by emailing us at the address below.
 
 ## Subscriptions
 
