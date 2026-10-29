@@ -1,6 +1,6 @@
 # Delete Your Account — Fajr Calendar for Android
 
-_Last updated: 24 September 2026_
+_Last updated: 29 October 2026_
 
 _This page applies to the **Fajr Calendar: Prayers Sync** app for **Android**, published on Google Play by **Blink22**._
 
@@ -33,6 +33,7 @@ When your account is deleted, we remove from our servers:
 
 - Your profile — name, email address, and account identifier.
 - Your saved location, calculation method, madhab, and all prayer-time and sync settings.
+- Your habits — their names, schedules, goals, reminders, checklist steps, daily progress and history, and any Health Connect links — together with the copy of them kept on your device (cleared by the in-app flow).
 - The OAuth tokens that connected your Google or Microsoft calendar and contacts to the app. Access is revoked.
 - Your subscription record on our servers.
 - Prayer events that the app created in your connected calendar.
@@ -43,6 +44,7 @@ Crash reports previously sent to Firebase Crashlytics, and usage analytics previ
 ## What is kept
 
 - **Events you created manually** in your Google or Outlook calendar are yours and are not touched.
+- **Data in Health Connect** is stored by Android on your device, not by Fajr Calendar, so deleting your account does not remove it. This includes the entries Fajr Calendar wrote there when you logged progress on a linked habit. To delete them, open **Health Connect → App permissions → Fajr Calendar** and choose to delete Fajr Calendar's data; the same screen removes Fajr Calendar's access.
 - **Your Google Play subscription** is managed by Google, not by us. Deleting your account does **not** cancel it. Cancel it in the Google Play app under **Payments & subscriptions → Subscriptions** to stop future charges.
 - Records we are legally required to retain, if any, are kept only for as long as the law requires.
 

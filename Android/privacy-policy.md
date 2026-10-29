@@ -1,6 +1,6 @@
 # Privacy Policy — Fajr Calendar for Android
 
-_Last updated: 24 September 2026_
+_Last updated: 29 October 2026_
 
 _This policy applies to the **Fajr Calendar: Prayers Sync** app for **Android**, distributed through Google Play._
 
@@ -12,7 +12,7 @@ If you have questions, contact us at the address at the bottom of this page.
 
 ## Information Collection and Use
 
-To provide its core functionality — syncing Islamic prayer times into your personal calendar and helping you plan around them — Fajr Calendar collects the following information:
+To provide its core functionality — syncing Islamic prayer times into your personal calendar, helping you plan around them, and tracking your habits — Fajr Calendar collects the following information:
 
 ### Account information
 
@@ -41,6 +41,41 @@ If you search for a city by name instead, the text you type is sent to our serve
 
 We store your preferences — calculation method, madhab, prayer reminders, language, calendar selection, and similar — on our servers so that they remain consistent across devices.
 
+### Habits
+
+When you use Habits, the habits you create are stored on our servers and associated with your Fajr Calendar account, so that they stay in sync across your devices. This includes each habit's name, emoji, description, category, color, schedule, goal and unit, reminder times, checklist steps, whether it is paused, and your daily progress (the value you reached each day, whether it was completed, and when). If a habit is linked to Health Connect, we also store which kind of health data it is linked to (for example "steps" or "water"); see *Health Connect* below.
+
+A copy of your habits is kept on your device so that Habits works offline. Habit progress can also appear in home-screen widgets and in notifications on your device; these are drawn on your device and are not sent anywhere. If you turn on calendar sync for Habits, our servers add your scheduled habits to the calendar you connected, as described under *Calendar data*.
+
+### Health Connect
+
+Fajr Calendar can link a habit to **Health Connect**, Android's on-device store for health and fitness data, so that the habit's progress fills in from data you or your other apps have recorded (for example, steps from your fitness tracker), and so that what you log in Fajr Calendar is saved to Health Connect too. Linking is optional and happens only when you turn on **Health Connect Sync** for a habit.
+
+**What Fajr Calendar accesses.** Fajr Calendar asks Health Connect only for the data types used by the habits you have linked, and you choose what to allow on Health Connect's own permission screen. The data types it can request are:
+
+| Data type | Read | Write | Used for |
+|---|---|---|---|
+| Steps | ✓ | ✓ | Step habits |
+| Distance | ✓ | ✓ | Walking, running, cycling and swimming distance habits, and workout habits measured in distance |
+| Active calories burned | ✓ | ✓ | Active-energy habits and workout habits measured in calories |
+| Basal metabolic rate | ✓ | | Resting-energy habits (read only) |
+| Floors climbed | ✓ | ✓ | Flights-climbed habits |
+| Exercise sessions | ✓ | ✓ | Workout habits and exercise-minutes habits |
+| Sleep | ✓ | ✓ | Sleep habits |
+| Hydration | ✓ | ✓ | Water habits |
+| Nutrition | ✓ | ✓ | Nutrition habits (for example protein, caffeine or dietary energy) |
+| Blood glucose | ✓ | ✓ | Blood-glucose habits |
+| Mindfulness | ✓ | ✓ | Mindful-minutes habits, where your device's Health Connect supports them |
+
+**How it is used.**
+
+- **Reading:** for each linked habit, Fajr Calendar reads only that habit's data type, only for the days in the habit's current goal period, and only while the app is open. It never reads Health Connect in the background and does not request access to data older than 30 days.
+- **Writing:** when you log progress on a linked habit in Fajr Calendar (for example, one glass of water), that entry is written to Health Connect as a Fajr Calendar record. Resetting a day removes only the records Fajr Calendar wrote for that habit and day; data written by other apps is never changed or deleted.
+- **What leaves your device:** the health records themselves stay in Health Connect on your device. What is sent to our servers is your habit's daily progress, which can include the total read from Health Connect (for example, "6,200 steps on 28 October"), together with the linked data type. This is what keeps the habit's history, statistics and streaks the same on all of your devices.
+- Health Connect data is **not** sent to Google Analytics for Firebase or Firebase Crashlytics, and is not shared with any third party.
+
+**Your choices.** You can stop sharing at any time by turning off Health Connect Sync for a habit, or by removing Fajr Calendar's access in Health Connect (**Health Connect → App permissions → Fajr Calendar**). From the same screen you can delete the data Fajr Calendar has written to Health Connect. Deleting your Fajr Calendar account does not delete data stored in Health Connect, which stays under your control on your device; see *Account Deletion*.
+
 ### Subscription information
 
 If you purchase a subscription, the payment is processed by **Google Play Billing**. We never receive your credit card number, billing address, or any other payment details. Google shares with us a purchase token and subscription state indicating which plan you bought and its status.
@@ -52,13 +87,14 @@ The Android app uses **Google Analytics for Firebase** to understand how the app
 **What is collected:**
 
 - **Screens and features used**, for example which screens you open, the steps of onboarding and the in-app tutorial you complete or skip, starting or completing a prayer sync, creating an event, and changing a setting such as calculation method, madhab, language, reminder time, or week start day.
+- **Habits activity**: that you opened Habits, created, logged, paused or deleted a habit, or finished a day's habits, with the habit's tracking type (for example "count" or "timer") and the number of habits that day. Habit names, descriptions, progress values and Health Connect data are never included.
 - **Settings and plan details**, recorded as short values describing your choices: your sign-in provider (Google or Microsoft), connected calendar provider, app language, calculation method, madhab, subscription plan, and the **city and country of the location you saved** in the app.
 - **Subscription events**: opening the subscription screen, the plan you chose, its price and currency, and the Google Play order number of a completed purchase. We never receive your payment details.
 - **Errors**: when a request to our servers fails, the kind of failure, its HTTP status code, and the request path with any identifiers removed. Only a sample (about 10%) of failed requests is recorded.
 - **A pseudonymous numeric account identifier**, the same one used for crash reports (see below), so that activity can be tied to an account across sessions and devices. When you sign out or delete your account, the app stops attaching it to further analytics.
 - **Information Google Analytics collects automatically**: an app-instance identifier, app version, device model, Android version, language, a coarse location (country or region) derived from your IP address, and session information such as when the app was first opened and how long it is used.
 
-**What is never collected:** your name, email address, or profile picture; the title, description, or guests of any event you create; your contacts; your precise location or coordinates; the text you type when searching for a city (only its length); authentication tokens; and the contents of any network request or response. Collection of the Android **advertising ID** is disabled.
+**What is never collected:** your name, email address, or profile picture; the title, description, or guests of any event you create; the names, notes, or progress values of your habits; any data from Health Connect; your contacts; your precise location or coordinates; the text you type when searching for a city (only its length); authentication tokens; and the contents of any network request or response. Collection of the Android **advertising ID** is disabled.
 
 Google processes this data on our behalf as a service provider. Analytics collection is active only in the version of the app published on Google Play.
 
@@ -66,7 +102,7 @@ Google processes this data on our behalf as a service provider. Analytics collec
 
 The app also uses **Firebase Crashlytics** for crash and error reporting.
 
-Crash reports **never** contain the content of your calendar, your contacts, your location coordinates, your authentication tokens, or the contents of any network request or response. A crash report contains the crash or error itself, the device and app information listed below, a short breadcrumb trail of app activity (for example, that a request to a given endpoint returned an error status), and a **pseudonymous numeric account identifier** that lets us tie multiple reports to a single account. That identifier is not your name or email address, and your name and email address are never sent to Crashlytics.
+Crash reports **never** contain the content of your calendar, your contacts, your habits or any Health Connect data, your location coordinates, your authentication tokens, or the contents of any network request or response. A crash report contains the crash or error itself, the device and app information listed below, a short breadcrumb trail of app activity (for example, that a request to a given endpoint returned an error status), and a **pseudonymous numeric account identifier** that lets us tie multiple reports to a single account. That identifier is not your name or email address, and your name and email address are never sent to Crashlytics.
 
 ### Device information
 
@@ -90,6 +126,12 @@ Fajr Calendar's use and transfer of information received from Google APIs to any
 
 Specifically, data obtained from the Google Calendar and Google People APIs is used only to provide and improve the user-facing features described in this policy; it is not transferred to others except as necessary to provide those features, to comply with applicable law, or as part of a merger or acquisition; it is not used for advertising of any kind; and no humans read this data except with your explicit consent, to comply with applicable law, or where the data is aggregated and anonymized for security or abuse-prevention purposes.
 
+## Health Connect Permissions Policy
+
+Fajr Calendar's use of information received from Health Connect adheres to the [Health Connect Permissions policy](https://support.google.com/googleplay/android-developer/answer/9888170), including the **Limited Use** requirements.
+
+Specifically, data obtained from Health Connect is used only to provide the Habits features described in this policy that you can see in the app; it is not transferred to others except with your consent, to comply with applicable law, for security purposes, or as part of a merger or acquisition; it is not sold, not shared with advertising platforms or data brokers, and not used for advertising, for credit or lending decisions, or for any other purpose; and no humans read this data except with your explicit consent, to comply with applicable law, or for security purposes.
+
 ## Permissions Used by the App
 
 **Requested through your Google or Microsoft account (OAuth)**
@@ -109,6 +151,26 @@ Specifically, data obtained from the Google Calendar and Google People APIs is u
 | `RECEIVE_BOOT_COMPLETED` | Re-schedule your prayer reminders after the device restarts |
 | `INTERNET` / `ACCESS_NETWORK_STATE` | Communicate with our servers and with Google/Microsoft |
 
+**Health Connect permissions**
+
+Requested only when you link a habit to Health Connect, and only for that habit's data type. See *Health Connect* above for what each one is used for.
+
+| Permission | Why it is requested |
+|---|---|
+| `health.READ_STEPS` / `health.WRITE_STEPS` | Fill in and save progress for step habits |
+| `health.READ_DISTANCE` / `health.WRITE_DISTANCE` | Distance habits and workout habits measured in distance |
+| `health.READ_ACTIVE_CALORIES_BURNED` / `health.WRITE_ACTIVE_CALORIES_BURNED` | Active-energy habits and workout habits measured in calories |
+| `health.READ_BASAL_METABOLIC_RATE` | Resting-energy habits (read only) |
+| `health.READ_FLOORS_CLIMBED` / `health.WRITE_FLOORS_CLIMBED` | Flights-climbed habits |
+| `health.READ_EXERCISE` / `health.WRITE_EXERCISE` | Workout and exercise-minutes habits |
+| `health.READ_SLEEP` / `health.WRITE_SLEEP` | Sleep habits |
+| `health.READ_HYDRATION` / `health.WRITE_HYDRATION` | Water habits |
+| `health.READ_NUTRITION` / `health.WRITE_NUTRITION` | Nutrition habits |
+| `health.READ_BLOOD_GLUCOSE` / `health.WRITE_BLOOD_GLUCOSE` | Blood-glucose habits |
+| `health.READ_MINDFULNESS` / `health.WRITE_MINDFULNESS` | Mindful-minutes habits |
+
+Fajr Calendar does not request background access to Health Connect or access to Health Connect data older than 30 days.
+
 All permissions are optional except those strictly required for the feature you are using. The app will continue to function in reduced form if you decline any optional permission.
 
 ## Account Deletion
@@ -116,10 +178,11 @@ All permissions are optional except those strictly required for the feature you 
 You can delete your Fajr Calendar account at any time directly from inside the app, under **Profile → Delete Account**. Deleting your account:
 
 - Removes your profile, app preferences, and saved settings from our servers.
+- Removes your habits, their history and progress, and their Health Connect links from our servers, and clears the copy kept on your device.
 - Revokes the OAuth tokens we hold for your Google or Microsoft account.
 - Removes prayer events created by the app from your connected calendar.
 
-Account deletion is permanent and cannot be undone. Events you created manually in your own calendar are not deleted — those remain under your control in Google or Microsoft.
+Account deletion is permanent and cannot be undone. Events you created manually in your own calendar are not deleted — those remain under your control in Google or Microsoft. Data in **Health Connect** is not deleted either, because it is stored by Android on your device, not by Fajr Calendar. You can delete the records Fajr Calendar wrote there under **Health Connect → App permissions → Fajr Calendar**.
 
 If you have an active subscription, you may need to cancel it separately in the Google Play Store under **Payments & subscriptions → Subscriptions**.
 
