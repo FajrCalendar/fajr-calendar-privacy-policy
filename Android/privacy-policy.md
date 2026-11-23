@@ -1,6 +1,6 @@
 # Privacy Policy — Fajr Calendar for Android
 
-_Last updated: 29 October 2026_
+_Last updated: 23 November 2026_
 
 _This policy applies to the **Fajr Calendar: Prayers Sync** app for **Android**, distributed through Google Play._
 
@@ -69,7 +69,7 @@ Fajr Calendar can link a habit to **Health Connect**, Android's on-device store 
 
 **How it is used.**
 
-- **Reading:** for each linked habit, Fajr Calendar reads only that habit's data type, only for the days in the habit's current goal period, and only while the app is open. It never reads Health Connect in the background and does not request access to data older than 30 days.
+- **Reading:** for each linked habit, Fajr Calendar reads only that habit's data type. While the app is open, it reads the days in the habit's current goal period. If you also allow **background access**, Fajr Calendar reads a linked habit's data about every 15 minutes while the app is closed, only for today and yesterday, so that the habit's progress, your home-screen widgets and progress notification, and your other signed-in devices stay up to date. Background reads run only while at least one habit is linked and background access is granted, and stop when you sign out, delete your account, or turn background access off in **Health Connect → App permissions → Fajr Calendar → Additional access**. Fajr Calendar does not request access to data older than 30 days.
 - **Writing:** when you log progress on a linked habit in Fajr Calendar (for example, one glass of water), that entry is written to Health Connect as a Fajr Calendar record. Resetting a day removes only the records Fajr Calendar wrote for that habit and day; data written by other apps is never changed or deleted.
 - **What leaves your device:** the health records themselves stay in Health Connect on your device. What is sent to our servers is your habit's daily progress, which can include the total read from Health Connect (for example, "6,200 steps on 28 October"), together with the linked data type. This is what keeps the habit's history, statistics and streaks the same on all of your devices.
 - Health Connect data is **not** sent to Google Analytics for Firebase or Firebase Crashlytics, and is not shared with any third party.
@@ -168,8 +168,9 @@ Requested only when you link a habit to Health Connect, and only for that habit'
 | `health.READ_NUTRITION` / `health.WRITE_NUTRITION` | Nutrition habits |
 | `health.READ_BLOOD_GLUCOSE` / `health.WRITE_BLOOD_GLUCOSE` | Blood-glucose habits |
 | `health.READ_MINDFULNESS` / `health.WRITE_MINDFULNESS` | Mindful-minutes habits |
+| `health.READ_HEALTH_DATA_IN_BACKGROUND` | Keep linked habits' progress up to date while the app is closed. Requested only together with a habit link, and only where your device's Health Connect supports background reads. |
 
-Fajr Calendar does not request background access to Health Connect or access to Health Connect data older than 30 days.
+Fajr Calendar does not request access to Health Connect data older than 30 days.
 
 All permissions are optional except those strictly required for the feature you are using. The app will continue to function in reduced form if you decline any optional permission.
 
@@ -179,6 +180,7 @@ You can delete your Fajr Calendar account at any time directly from inside the a
 
 - Removes your profile, app preferences, and saved settings from our servers.
 - Removes your habits, their history and progress, and their Health Connect links from our servers, and clears the copy kept on your device.
+- Stops Fajr Calendar's background reads from Health Connect.
 - Revokes the OAuth tokens we hold for your Google or Microsoft account.
 - Removes prayer events created by the app from your connected calendar.
 
